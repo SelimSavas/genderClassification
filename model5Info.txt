@@ -1,0 +1,7 @@
+
+Data: x
+
+https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
+
+Code: 
+https://www.kaggle.com/code/selimsavas16/gender-classification-with-inceptionv3-0-96-acc
