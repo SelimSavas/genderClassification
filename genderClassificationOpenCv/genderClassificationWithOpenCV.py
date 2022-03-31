@@ -6,9 +6,6 @@ import numpy as np
 import cv2
 import os
 import cvlib as cv
-               
-ths = open("log.txt", "w")
-
 
 model = tensorflow.keras.models.load_model('model.h5')
 
@@ -50,8 +47,7 @@ while webcam.isOpened():
             cv2.putText(frame, label, (startX, startY),  cv2.FONT_HERSHEY_SIMPLEX,
                     0.7, (0, 255, 0), 2)
        
-    ths.write("Erkek geldi\n")
-
+    
 
     cv2.imshow("gender detection", frame)
 
